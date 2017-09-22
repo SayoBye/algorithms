@@ -1,4 +1,4 @@
-export default (arr, value) => {
+const binSearch = (arr, value) => {
   const low = 0;
   const high = arr.length - 1;
 
@@ -14,4 +14,11 @@ export default (arr, value) => {
   return search(low, high, 1);
 }
 
+const phoneNumbers = [];
 
+for (let i = 88005553535; i <= 88005793535; i++) { // Create array of 240 000 phone numbers
+  phoneNumbers.push(i);
+}
+
+
+binSearch(phoneNumbers, 88005564151); // "Position: 10616 Steps: 18"
