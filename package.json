@@ -1,5 +1,5 @@
 {
-  "name": "nodejs-package",
+  "name": "algorithms",
   "version": "0.0.1",
   "description": "",
   "main": "dist/index.js",
@@ -18,14 +18,14 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/hexlet-boilerplates/nodejs-package.git"
+    "url": "git+https://github.com/SayoBye/algorithms.git"
   },
-  "author": "Kirill Mokevnin",
+  "author": "SayoBye",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/hexlet-boilerplates/nodejs-package/issues"
+    "url": "https://github.com/SayoBye/algorithms/issues"
   },
-  "homepage": "https://github.com/hexlet-boilerplates/nodejs-package#readme",
+  "homepage": "https://github.com/SayoBye/algorithms#readme",
   "dependencies": {
     "gulp": "*"
   },
